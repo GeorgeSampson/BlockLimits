@@ -1,0 +1,5 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}
+version: ${version}
+author: TealNerd
+depend: [CivModCore]

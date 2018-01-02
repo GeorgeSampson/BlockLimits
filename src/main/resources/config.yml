@@ -1,0 +1,20 @@
+db:
+  plugin: BlockLimits
+  user: root
+  password: root
+  host: localhost
+  port: 3306
+  database: minecraft
+  poolsize: 10
+  connectionTimeout: 10000
+  idleTimeout: 600000
+  maxLifetime: 7200000
+limits:
+  PISTON_BASE: 10
+  HOPPER: 16
+  PISTON_STICKY_BASE: 10
+  FURNACE: 40
+  SLIME_BLOCK: 8
+  DROPPER: 16
+  DISPENSER: 16
+  OBSERVER: 4
